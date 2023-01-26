@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-image: url(./blob-scene-haikei.svg);
+  background-position: cover;
+  background-position: center;
+  background-repeat: initial;
+  background-size: cover;
+  height: 800px;
+}
