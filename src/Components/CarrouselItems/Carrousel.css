@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+#salones{
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.slick-slide > div {
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+  }
+  
+  .cards{
+    border: 1px solid #fff;
+    background: #fff;
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    height: 300px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .cards:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+  
+  .cards-top h1 {
+    text-align: start;
+    font-size: 0.9rem;
+    margin: 20px;
+  }
+  
+  .cards-top > img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cards-bottom {
+    margin: 10px 0px;
+  }
+  
+  .category {
+    position: relative;
+  }
+
+  .cards-top h3 {
+	color: #772c87;
+	text-align: start;
+	font-size: 18px;
+	margin: 5px 10px 0px;
+  }
+  .cards-top .title-cards{
+    color: black;
+  }
+  .cards-bottom > h3 {
+	margin: 10px;
+	text-align: initial;
+  }
+  
+  .cards-top > .price {
+    float: right;
+	font-size: 12px;
+	color: black;
+  }
+  .cards-top .porPersona{
+    float: right;
+    font-size: 18px;
+    margin-top: -20px;
+    margin-right: -100px;
+  }
+  .cards-top > .iconPersona{
+    float: right;
+  }
+  .cards-top .cadaUno{
+    font-size: 12px;
+    margin-right: 5px;
+  }
+  .cards-bottom .descrip {
+  font-size: .7rem;
+  color: #5e6576;
+	font-weight: 700;
+  line-height: 1.2rem;
+  }  
+.cards-2 {
+	padding-top: 9.5rem;
+	padding-bottom: 2.25rem;
+	text-align: center;
+}
+
+.cards-2 .h2-heading {
+	margin-bottom: 3.75rem;
+}
+
+.cards-2 .card {
+	position: relative;
+	margin-bottom: 5rem;
+	border-radius: 10px;
+	box-shadow: 0 4px 20px -1px rgba(0, 0, 0, 0.1);
+}
+
+.cards-2 .cards .quotes {
+	position: absolute;
+	top: -15px;
+	right: 0;
+	left: 0;
+	width: 48px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.cards-2 .cards-body {
+	padding: 3.5rem 2rem 3.125rem 2rem;
+}
+
+.cards-2 .testimonial-author {
+	margin-bottom: 0.125rem;
+	color: #223150;
+}
+
+.cards-2 .occupation {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+}
+
+.cards-2 .cards .gradient-floor {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 10px;
+	width: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.cards-2 .cards .gradient-floor.red-to-blue {
+	background: linear-gradient(to right, #ef3d91, #0092ff);
+}
+
+.cards-2 .cards .gradient-floor.blue-to-purple {
+	background: linear-gradient(to right, #0092ff, #637eff);
+}
+
+.cards-2 .cards .gradient-floor.purple-to-green {
+	background: linear-gradient(to right, #637eff, #16c66d);
+} 
+
+.slick-list{
+  padding: 40px 0px!important;
+}
